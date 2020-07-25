@@ -1,0 +1,25 @@
+[
+  {
+    "type": "terrain",
+    "id": "t_dmbb_barrier",
+    "name": "barrier",
+    "description": "A thin metaphysical force field that enslows anything that come close.",
+    "symbol": "LINE_OXOX",
+    "color": "cyan",
+    "move_cost": 40,
+    "flags": [ "TRANSPARENT", "AUTO_WALL_SYMBOL" ],
+    "connects_to": "CHAINFENCE"
+  },
+  {
+    "type": "terrain",
+    "id": "t_dmbb_abode",
+    "name": "orb's abode",
+    "description": "The base of the orb. It is adorned with beautifully-etched symbols.",
+    "symbol": "0",
+    "color": "cyan",
+    "move_cost": 2,
+    "light_emitted": 1,
+    "roof": "t_flat_roof",
+    "flags": [ "TRANSPARENT", "SUPPORTS_ROOF", "INDOORS", "NOITEM" ]
+  }
+]
