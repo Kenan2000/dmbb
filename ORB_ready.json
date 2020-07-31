@@ -2,18 +2,24 @@
   "id": "TALK_DMBB_ORB_command",
   "type": "talk_topic",
   "dynamic_line": "*trembles in response.",
-  "speaker_effect": {
-    "condition": {
-      "and": [
-        { "not": { "u_has_var": "dmbb_orb", "type": "sentguard", "context": "summon", "value": "yes" } },
-        { "npc_has_trait": "DMBB_ORB_sentguard" }
+  "speaker_effect": [
+    {
+      "condition": {
+        "and": [
+          { "not": { "u_has_var": "dmbb_orb", "type": "sentguard", "context": "summon", "value": "yes" } },
+          { "npc_has_trait": "DMBB_ORB_sentguard" }
+        ]
+      },
+      "effect": [
+        { "u_add_var": "dmbb_orb", "type": "sentguard", "context": "summon", "value": "yes" },
+        { "mapgen_update": "dmbb_sentguard", "om_terrain": "dmbb_arena_5", "om_special": "DMBB Arena" }
       ]
     },
-    "effect": [
-      { "u_add_var": "dmbb_orb", "type": "sentguard", "context": "summon", "value": "yes" },
-      { "mapgen_update": "dmbb_sentguard", "om_terrain": "dmbb_arena_5", "om_special": "DMBB Arena" }
-    ]
-  },
+    {
+      "condition": { "npc_has_trait": "DMBB_ORB_guild" },
+      "effect": { "mapgen_update": "dmbb_orb_warpgate_north_close", "om_terrain": "dmbb_arena_2", "om_special": "DMBB Arena" }
+    }
+  ],
   "responses": [
     { "text": "< - - -", "topic": "TALK_DMBB_ORB" },
     {
@@ -85,6 +91,12 @@
       "text": "[MERCENARY]",
       "topic": "TALK_DMBB_ORB_command_merc",
       "condition": { "u_has_var": "dmbb_orb", "type": "bosswave1", "context": "finish", "value": "yes" }
+    },
+    {
+      "text": "[WARPGATE]",
+      "topic": "TALK_DONE",
+      "condition": { "npc_has_trait": "DMBB_ORB_guild" },
+      "effect": { "mapgen_update": "dmbb_orb_warpgate_north_open", "om_terrain": "dmbb_arena_2", "om_special": "DMBB Arena" }
     },
     {
       "text": "[WAVES]",

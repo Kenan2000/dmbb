@@ -70,6 +70,7 @@
         },
         { "npc_has_trait": "DMBB_ORB_cespure", "yes": "\n* PASSIVE - Celestial Purification" },
         { "npc_has_trait": "DMBB_ORB_cesward", "yes": "\n* PASSIVE - Celestial Ward" },
+        { "npc_has_trait": "DMBB_ORB_guild", "yes": "\n* PASSIVE - Sentinel's Guild Warpgate" },
         { "npc_has_trait": "DMBB_ORB_elemsy", "yes": "\n* PASSIVE - Elemental Synergy" },
         { "npc_has_trait": "DMBB_ORB_darksy", "yes": "\n* PASSIVE - Vorpal Synergy" },
         { "npc_has_trait": "DMBB_ORB_arcanasy", "yes": "\n* PASSIVE - Arcane Synergy" },

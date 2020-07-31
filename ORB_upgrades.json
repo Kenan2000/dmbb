@@ -2,7 +2,7 @@
   {
     "id": [ "TALK_DMBB_ORB_command_upgrade", "TALK_DMBB_ORB_command_upgrade_pas", "TALK_DMBB_ORB_command_upgrade_act", "TALK_DMBB_ORB_command_upgrade_sen" ],
     "type": "talk_topic",
-    "dynamic_line": "*requires sentinel essences to upgrade the orb.",
+    "dynamic_line": "*requires sentinel essences to upgrade the orb.\n\nSelect the upgrade type to show.",
     "responses": [
       { "text": "List available [PASSIVE]", "topic": "TALK_DMBB_ORB_command_upgrade_pas" },
       { "text": "List available [ACTIVE]", "topic": "TALK_DMBB_ORB_command_upgrade_act" },
@@ -67,6 +67,10 @@
         {
           "npc_has_trait": "DMBB_ORB_cesward",
           "no": "\n\n*50 essence\n[PASSIVE] Celestial Ward\nAllows the orb to compress essences, and blesses it with environmental warding effects."
+        },
+        {
+          "npc_has_trait": "DMBB_ORB_guild",
+          "no": "\n\n*1500 essence\n[PASSIVE] Sentinel's Guild Warpgate\nIntegrates a new warpgate that leads to the sentinel's guild - a gathering place for all defenders. This guild offers a plethora of new options such as trading."
         },
         {
           "npc_has_trait": "DMBB_ORB_shockstorm",
@@ -332,6 +336,20 @@
           { "npc_consume_item": "dmbb_essence", "count": 50 },
           { "u_add_var": "dmbb_orb", "type": "has_upgrade", "context": "passive", "value": "yes" },
           { "npc_add_trait": "DMBB_ORB_cesward" }
+        ]
+      },
+      {
+        "text": "[1500 essence] Sentinel's Guild Warpgate",
+        "topic": "TALK_DMBB_ORB_command_upgrade_pas",
+        "condition": {
+          "and": [ { "not": { "npc_has_trait": "DMBB_ORB_guild" } }, { "u_has_items": { "item": "dmbb_essence", "count": 1500 } } ]
+        },
+        "effect": [
+          { "u_sell_item": "dmbb_essence", "count": 1500 },
+          { "npc_consume_item": "dmbb_essence", "count": 1500 },
+          { "u_add_var": "dmbb_orb", "type": "has_upgrade", "context": "passive", "value": "yes" },
+          { "npc_add_trait": "DMBB_ORB_guild" },
+          { "mapgen_update": "dmbb_orb_warpgate_guild", "origin_npc": true, "offset_z": 2, "offset_y": -2 }
         ]
       },
       {
