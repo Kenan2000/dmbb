@@ -79,5 +79,13 @@
     "color": "light_gray",
     "see_cost": 999,
     "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "dmbb_warpgate",
+    "name": "cavern",
+    "sym": "#",
+    "color": "light_gray",
+    "see_cost": 999
   }
 ]
