@@ -88,5 +88,15 @@
     "mission": 7,
     "chat": "TALK_DMBB_MERC_PRIEST",
     "faction": "dmbb_defenders"
+  },
+  {
+    "type": "npc",
+    "id": "dmbb_npc_guildmaster",
+    "name_suffix": "Guildmaster",
+    "class": "NC_BONE_SEER",
+    "attitude": 1,
+    "mission": 7,
+    "chat": "TALK_DMBB_ORB_GUILDMASTER",
+    "faction": "dmbb_defenders"
   }
 ]
