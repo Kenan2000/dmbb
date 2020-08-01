@@ -13,5 +13,7 @@
 * **[Arcana](https://github.com/chaosvolt/cdda-arcana-mod)**
 
 
-#### What's in the .zip file?
-The contents of the .zip file is similar to the DMBB repository's files, but neatly organized. I can't upload folders at the moment, so it exists because of that.
+#### What's in the .zip files?
+The .zip files contain the wavepacks (or extension mods) for DMBB. Each has separate contents such as **dmbbxsecronom** adding new waves of monsters accordingly.
+
+Installing additional wavepacks is optional.
