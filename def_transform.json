@@ -11,7 +11,7 @@
       },
       {
         "result": "t_uniqmazing_wl_yellow",
-        "valid_terrain": [ "t_uniqmazing_wl_limegreen", "t_uniqmazing_wl_purple", "t_uniqmazing_wl_red", "t_uniqmazing_fl_sandbrown" ],
+        "valid_terrain": [ "t_uniqmazing_wl_limegreen", "t_uniqmazing_wl_purple", "t_uniqmazing_wl_red", "t_uniqmazing_wl_sandbrown" ],
         "message": "Terrains here have reverted."
       }
     ]
@@ -70,7 +70,7 @@
     "terrain": [
       { "result": "t_uniqmazing_fl_sandbrown", "valid_terrain": [ "t_uniqmazing_fl_yellow" ], "message": "Terrains here have been colored." },
       {
-        "result": "t_uniqmazing_fl_sandbrown",
+        "result": "t_uniqmazing_wl_sandbrown",
         "valid_terrain": [ "t_uniqmazing_wl_yellow" ],
         "message": "Terrains here have been colored."
       }
