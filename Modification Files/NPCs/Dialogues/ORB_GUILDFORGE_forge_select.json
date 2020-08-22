@@ -21,7 +21,7 @@
           "u_has_item": "dmbb_hexsteel_chunk",
           "yes": "\n* Hex Hammer"
         },
-        "\n\n\"Missing something on the list? Maybe you don't have the main material in your space.",
+        "\n\n\"Missing something on the list? Maybe you don't have the main material in your space."
       ]
     },
     "responses": [
@@ -65,7 +65,7 @@
           "yes": "\n* 2 fur pelts",
           "no": "\n* 2 fur pelts (insufficient amount)"
         },
-        "\n\n\"It'll take some time to forge an equipment.",
+        "\n\n\"It'll take some time to forge an equipment."
       ]
     },
     "responses": [
@@ -116,7 +116,7 @@
           "yes": "\n* 2 fur pelts",
           "no": "\n* 2 fur pelts (insufficient amount)"
         },
-        "\n\n\"It'll take some time to forge an equipment.",
+        "\n\n\"It'll take some time to forge an equipment."
       ]
     },
     "responses": [

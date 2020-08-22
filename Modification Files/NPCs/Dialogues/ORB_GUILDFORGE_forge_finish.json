@@ -12,7 +12,7 @@
           "u_has_var": "dmbb_orb", "type": "guildsmith_forging", "context": "hexblade", "value": "yes",
           "yes": "Hex Blade"
         },
-        " is done. Take it and I'll be ready to forge new equipments.",
+        " is done. Take it and I'll be ready to forge new equipments."
       ]
     },
     "responses": [

@@ -43,7 +43,7 @@
         "topic": "TALK_DMBB_ORB_GUILDSMITH_forge_finish",
         "condition": {
           "and": [
-            { "u_has_var": "dmbb_orb", "type": "guildsmith", "context": "forge_info", "value": "yes" },
+            { "u_has_var": "dmbb_orb", "type": "guildsmith", "context": "forge", "value": "yes" },
             { "not": { "u_has_var": "dmbb_orb", "type": "guildsmith", "context": "forging", "value": "yes" } },
             {
               "or": [
@@ -59,7 +59,7 @@
         "topic": "TALK_DMBB_ORB_GUILDSMITH_forge_list",
         "condition": {
           "and": [
-            { "u_has_var": "dmbb_orb", "type": "guildsmith", "context": "forge_info", "value": "yes" },
+            { "u_has_var": "dmbb_orb", "type": "guildsmith", "context": "forge", "value": "yes" },
             { "not": { "u_has_var": "dmbb_orb", "type": "guildsmith", "context": "forging", "value": "yes" } },
             { "not": { "u_has_var": "dmbb_orb", "type": "guildsmith_forging", "context": "armamentalistsword", "value": "yes" } },
             { "not": { "u_has_var": "dmbb_orb", "type": "guildsmith_forging", "context": "hexblade", "value": "yes" } }

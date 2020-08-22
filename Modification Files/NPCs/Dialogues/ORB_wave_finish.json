@@ -4,7 +4,7 @@
   "dynamic_line": "*blasts beams of light rays, radiating into the vicinity.\n\nIts powerful explosion dropped some sentinel's essences.",
     "speaker_effect": [
       {
-        "effect": [ { "u_add_effect": "blind", "duration": 3 }, { "u_add_effect": "deaf", "duration": 1 }, { "u_add_effect": "deaf", "duration": 1 }, { "u_add_effect": "deaf", "duration": 1 } ]
+        "effect": [ { "u_add_effect": "blind", "duration": 3 }, { "u_add_effect": "deaf", "duration": 1 }, { "u_add_effect": "deaf", "duration": 1 }, { "u_add_effect": "deaf", "duration": 1 }, { "u_lose_var": "dmbb_orb", "type": "guildsmith", "context": "forging", "value": "yes" } ]
       },
       {
         "condition": { "npc_has_trait": "DMBB_ORB_sentguard" },
