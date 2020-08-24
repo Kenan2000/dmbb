@@ -1,7 +1,7 @@
 [
   {
     "type": "material",
-    "ident": "essencemat",
+    "id": "essencemat",
     "name": "Magical Essence",
     "density": 1,
     "bash_resist": 20,
@@ -17,7 +17,7 @@
   },
   {
     "type": "material",
-    "ident": "dmbb_nullmat",
+    "id": "dmbb_nullmat",
     "name": "Null",
     "density": 1,
     "bash_resist": 0,
@@ -33,7 +33,7 @@
   },
   {
     "type": "material",
-    "ident": "dmbb_hexsteel",
+    "id": "dmbb_hexsteel",
     "name": "Hexsteel",
     "density": 30,
     "bash_resist": 6,
@@ -54,7 +54,7 @@
   },
   {
     "type": "material",
-    "ident": "dmbb_dragon_fire",
+    "id": "dmbb_dragon_fire",
     "name": "Dragon (fire)",
     "density": 22,
     "specific_heat_liquid": 4.001,
@@ -75,7 +75,7 @@
   },
   {
     "type": "material",
-    "ident": "dmbb_dragon_ice",
+    "id": "dmbb_dragon_ice",
     "name": "Dragon (ice)",
     "density": 20,
     "specific_heat_liquid": 4.001,
@@ -96,7 +96,7 @@
   },
   {
     "type": "material",
-    "ident": "dmbb_dragon_storm",
+    "id": "dmbb_dragon_storm",
     "name": "Dragon (storm)",
     "density": 20,
     "specific_heat_liquid": 4.001,

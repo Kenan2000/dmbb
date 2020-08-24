@@ -352,24 +352,6 @@
     "countdown_action": { "type": "cast_spell", "spell_id": "dmbb_act_ice2_up_grade_icicle", "no_fail": true, "level": 0 }
   },
   {
-    "id": "dmbb_act_ice2_up_icicle_act",
-    "type": "TOOL",
-    "name": { "str": "orb's shard - Turret - Ice+ Upgrade", "str_pl": "orb's shards - Turret - Ice+ Upgrade" },
-    "description": "A shard blessed by the orb. It is shattering.",
-    "volume": "0 ml",
-    "weight": 0,
-    "price": 0,
-    "category": "dmbb_shard",
-    "to_hit": -2,
-    "bashing": 1,
-    "material": [ "stone" ],
-    "symbol": "0",
-    "color": "dark_gray",
-    "countdown_interval": 1,
-    "countdown_destroy": true,
-    "countdown_action": { "type": "cast_spell", "spell_id": "dmbb_act_ice2_up_grade_icicle", "no_fail": true, "level": 0 }
-  },
-  {
     "id": "dmbb_act_summon_merc_knight",
     "type": "TOOL",
     "name": {
