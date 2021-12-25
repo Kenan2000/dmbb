@@ -16,7 +16,6 @@
     "name": { "str": "goblin" },
     "description": "A short humanoid with a distinctive wrinkly yellow skin and unpleasant visage.",
     "default_faction": "goblinoid",
-    "bodytype": "human",
     "species": [ "GOBLINOID" ],
     "volume": "32 L",
     "weight": "42 kg",
@@ -48,7 +47,6 @@
         { "item": "cuirass_scrap", "prob": 20 }
       ]
     },
-    "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "HEARS", "WARM", "BASHES", "FILTHY", "PATH_AVOID_DANGER_2", "NO_BREATHE" ]
   },
   {
@@ -382,10 +380,9 @@
     "note": "We use the entire worg data here, adding only the ability to dismount its rider.",
     "id": "mon_mtc_goblin_mounted",
     "type": "MONSTER",
-    "name": "worg",
+    "name": { "str": "worg" },
     "description": "A large, vicious, and evil wolflike beast warped by magic long ago.  It is intelligent enough to talk and will enjoy eating you alive.  Often consorts with goblins in a mutually beneficial relationship (of eating humans). Mounted on its back is a goblin, and will dismount as soon as the worg engages in combat.",
     "default_faction": "worg",
-    "bodytype": "dog",
     "categories": [ "WILDLIFE" ],
     "species": [ "MAMMAL" ],
     "volume": "32625 ml",
@@ -410,7 +407,6 @@
     "path_settings": { "max_dist": 12 },
     "anger_triggers": [ "STALK", "FRIEND_ATTACKED", "FRIEND_DIED", "PLAYER_WEAK", "PLAYER_CLOSE" ],
     "placate_triggers": [ "MEAT" ],
-    "death_function": [ "NORMAL" ],
     "death_drops": "mon_mtc_worg_dd",
     "special_attacks": [
       {

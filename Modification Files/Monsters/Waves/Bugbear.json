@@ -5,7 +5,6 @@
     "name": { "str": "bugbear" },
     "description": "A large, savage humanoid distinct to its yellow skin and bear-like nose and claws. Out of all goblinoids, they are the largest, strongest and the worst.",
     "default_faction": "goblinoid",
-    "bodytype": "human",
     "species": [ "GOBLINOID" ],
     "volume": "132 L",
     "weight": "180 kg",
@@ -33,7 +32,6 @@
         { "item": "chaps_leather", "prob": 60 }
       ]
     },
-    "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "HEARS", "WARM", "BASHES", "FILTHY", "PATH_AVOID_DANGER_2", "NO_BREATHE" ]
   },
   {

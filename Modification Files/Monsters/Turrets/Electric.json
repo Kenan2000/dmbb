@@ -2,7 +2,7 @@
   {
     "id": "mon_dmbb_turret_shock1",
     "type": "MONSTER",
-    "name": "turret",
+    "name": { "str": "turret" },
     "description": "A magical turret adorned with undecipherable symbols. It has a distinct coil-barrel that projects electric arcs.",
     "default_faction": "bot",
     "species": [ "UNKNOWN" ],
@@ -30,13 +30,13 @@
         "monster_message": "<color_yellow>%1$s shocks %3$s!</color>"
       }
     ],
-    "death_function": [ "DISAPPEAR" ],
+    "death_function": { "message": "The %s disappears.", "corpse_type": "NO_CORPSE" },
     "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "POISON", "NO_BREATHE", "IMMOBILE", "PACIFIST", "ELECTRIC", "ACIDPROOF", "FIREPROOF", "COLDPROOF" ]
   },
   {
     "id": "mon_dmbb_turret_shock2",
     "type": "MONSTER",
-    "name": "turret+",
+    "name": { "str": "turret+" },
     "description": "A magical turret adorned with undecipherable symbols that faintly shimmers in golden hue. It has a distinct coil-barrel that projects electric arcs.",
     "default_faction": "bot",
     "species": [ "UNKNOWN" ],
@@ -64,13 +64,13 @@
         "monster_message": "<color_yellow>%1$s shocks %3$s!</color>"
       }
     ],
-    "death_function": [ "DISAPPEAR" ],
+    "death_function": { "message": "The %s disappears.", "corpse_type": "NO_CORPSE" },
     "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "POISON", "NO_BREATHE", "IMMOBILE", "PACIFIST", "ELECTRIC", "ACIDPROOF", "FIREPROOF", "COLDPROOF" ]
   },
   {
     "id": "mon_dmbb_turret_shock_er",
     "type": "MONSTER",
-    "name": "turret (shock)",
+    "name": { "str": "turret (shock)" },
     "description": "A magical turret adorned with undecipherable symbols, shrouded in golden aura. Its larger coil-barrel generates stronger electric discharges that can reach at higher ranges.",
     "default_faction": "bot",
     "species": [ "UNKNOWN" ],
@@ -98,13 +98,13 @@
         "monster_message": "<color_yellow>%1$s shocks %3$s!</color>"
       }
     ],
-    "death_function": [ "DISAPPEAR" ],
+    "death_function": { "message": "The %s disappears.", "corpse_type": "NO_CORPSE" },
     "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "POISON", "NO_BREATHE", "IMMOBILE", "PACIFIST", "ELECTRIC", "ACIDPROOF", "FIREPROOF", "COLDPROOF" ]
   },
   {
     "id": "mon_dmbb_turret_shock_tesla",
     "type": "MONSTER",
-    "name": "turret (tesla)",
+    "name": { "str": "turret (tesla)" },
     "description": "A magical turret adorned with undecipherable symbols, shrouded in golden aura. Its dense, upright coil discharges electricity in wide, yet limited AOE area.",
     "default_faction": "bot",
     "species": [ "UNKNOWN" ],
@@ -132,7 +132,7 @@
         "monster_message": "<color_yellow>%1$s shocks %3$s!</color>"
       }
     ],
-    "death_function": [ "DISAPPEAR" ],
+    "death_function": { "message": "The %s disappears.", "corpse_type": "NO_CORPSE" },
     "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "POISON", "NO_BREATHE", "IMMOBILE", "PACIFIST", "ELECTRIC", "ACIDPROOF", "FIREPROOF", "COLDPROOF" ]
   }
 ]

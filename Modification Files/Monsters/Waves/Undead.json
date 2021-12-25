@@ -12,7 +12,6 @@
 	"looks-like": "mon_skeleton",
     "description": "A ressurected and seemingly bewitched skeleton of a long forgotten decease. It does a rattling sound as it moves.",
     "default_faction": "zombie",
-    "bodytype": "human",
     "species": [ "UNDEAD", "HUMAN" ],
     "volume": "62500 ml",
     "weight": "81500 g",
@@ -37,7 +36,6 @@
     "harvest": "mr_bones",
     "special_attacks": [ [ "scratch", 10 ] ],
     "death_drops": "default_zombie_clothes",
-    "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "HEARS", "HARDTOSHOOT", "NO_BREATHE", "BASHES" ]
   },
   {

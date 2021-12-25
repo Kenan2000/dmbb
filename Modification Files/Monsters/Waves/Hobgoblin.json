@@ -5,7 +5,6 @@
     "name": { "str": "hobgoblin" },
     "description": "A stout humanoid with green-ish skin partially covered by hair. Shares similarities to goblins, but are larger, broader and far more aggressive.",
     "default_faction": "goblinoid",
-    "bodytype": "human",
     "species": [ "GOBLINOID" ],
     "volume": "54 L",
     "weight": "70 kg",
@@ -37,7 +36,6 @@
         { "item": "armor_lamellar", "prob": 20 }
       ]
     },
-    "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "HEARS", "WARM", "BASHES", "FILTHY", "PATH_AVOID_DANGER_2", "NO_BREATHE" ]
   },
   {

@@ -1,7 +1,8 @@
-{
+[
+  {
     "id": "mon_dmbb_sentguard",
     "type": "MONSTER",
-    "name": "sentinel's guard",
+    "name": { "str": "sentinel's guard" },
     "description": "An ethereal guard armed with a longsword and a shield, fully clad in armor of unknown material.",
     "default_faction": "zombie",
     "species": [ "UNKNOWN" ],
@@ -25,6 +26,7 @@
     "vision_day": 69,
     "vision_night": 69,
     "harvest": "exempt",
-    "death_function": [ "DISAPPEAR" ],
+    "death_function": { "message": "The %s disappears.", "corpse_type": "NO_CORPSE" },
     "flags": [ "SEES", "WARM", "POISON", "NO_BREATHE" ]
   }
+]

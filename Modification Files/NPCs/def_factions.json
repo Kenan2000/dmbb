@@ -1,4 +1,5 @@
-{
+[
+  {
     "type": "faction",
     "id": "dmbb_defenders",
     "name": "Defenders",
@@ -11,3 +12,4 @@
     "wealth": 999999999,
     "description": "Called to those individuals protecting the orb."
   }
+]

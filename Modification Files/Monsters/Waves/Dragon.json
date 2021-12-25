@@ -19,10 +19,9 @@
   {
     "id": "mon_mtc_dragon_fire_adult",
     "type": "MONSTER",
-    "name": "dragon",
+    "name": { "str": "dragon" },
     "description": "An enormous magical reptilian creature with thick, red glossy scales, twisted horns and wings. Be careful of its fiery breath!",
     "default_faction": "dragon_fire",
-    "bodytype": "dragon",
     "species": [ "DRAGON" ],
     "volume": "999 L",
     "weight": "1980 kg",
@@ -49,7 +48,6 @@
     "vision_night": 10,
     "path_settings": { "min_dist": 24 },
     "harvest": "animal_large_noskin",
-    "death_function": [ "NORMAL" ],
     "special_attacks": [
       { "type": "bite", "cooldown": 10 },
       [ "scratch", 8 ],
@@ -77,10 +75,9 @@
   {
     "id": "mon_mtc_dragon_ice_adult",
     "type": "MONSTER",
-    "name": "dragon",
+    "name": { "str": "dragon" },
     "description": "An enormous magical reptilian creature with thick, cyanide scales, curled horns and wings. Be careful of its icy breath!",
     "default_faction": "dragon_ice",
-    "bodytype": "dragon",
     "species": [ "DRAGON" ],
     "volume": "999 L",
     "weight": "1980 kg",
@@ -107,7 +104,6 @@
     "vision_night": 10,
     "path_settings": { "min_dist": 24 },
     "harvest": "animal_large_noskin",
-    "death_function": [ "NORMAL" ],
     "special_attacks": [
       { "type": "bite", "cooldown": 10 },
       [ "scratch", 7 ],
@@ -135,10 +131,9 @@
   {
     "id": "mon_mtc_dragon_storm_adult",
     "type": "MONSTER",
-    "name": "dragon",
+    "name": { "str": "dragon" },
     "description": "An enormous magical reptilian creature with thick, sky blue scales, curled horns and wings. Be careful of its thunderous discharges!",
     "default_faction": "dragon_storm",
-    "bodytype": "dragon",
     "species": [ "DRAGON" ],
     "volume": "999 L",
     "weight": "1980 kg",
@@ -165,7 +160,6 @@
     "vision_night": 10,
     "path_settings": { "min_dist": 24 },
     "harvest": "animal_large_noskin",
-    "death_function": [ "NORMAL" ],
     "special_attacks": [
       { "type": "bite", "cooldown": 10 },
       [ "scratch", 7 ],

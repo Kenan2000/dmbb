@@ -1,4 +1,5 @@
-{
+[
+  {
     "id": "DMBB Arena",
     "locations": [ "field" ],
     "occurrences": [ 0, 1 ],
@@ -19,3 +20,5 @@
     "rotate": false,
     "type": "overmap_special"
   }
+
+]

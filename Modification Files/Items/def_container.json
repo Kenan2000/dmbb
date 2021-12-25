@@ -1,12 +1,13 @@
-{
+[
+  {
     "id": "dmbb_locket",
     "type": "ARMOR",
     "name": { "str": "sentinel's locket" },
     "description": "A small, chainless locket, etched with divinity symbols. Gathers sentinel essences and blessed shards.",
     "weight": "69 g",
     "volume": "190 ml",
-    "price": 1000,
-    "price_postapoc": 10,
+    "price": "10 USD",
+    "price_postapoc": "1 USD",
     "material": [ "steel" ],
     "symbol": "[",
     "looks_like": "silver_necklace",
@@ -51,3 +52,4 @@
     ],
     "flags": [ "TARDIS" ]
   }
+]
